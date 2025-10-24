@@ -1,0 +1,34 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+header {
+    background: linear-gradient(90deg, #a30000, #d32f2f);
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+#weatherResult img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
