@@ -27,7 +27,7 @@ function getWeather() {
 }
 
 // ===== NEWS SECTION =====
-const newsApiKey = '4f3f3283fa7d9bc6ce0b9c7b6d1f7d24'; // Replace with your GNews API key
+const newsApiKey = '4f3f3283fa7d9bc6ce0b9c7b6d1f7d24';
 const newsUrl = `https://gnews.io/api/v4/search?q=Tigray&lang=en&country=et&max=6&apikey=${newsApiKey}`;
 
 fetch('https://api.nasa.gov/')
@@ -50,4 +50,5 @@ fetch('https://api.nasa.gov/')
     .catch(() => {
         document.getElementById('newsContainer').innerHTML = `<p class="text-center text-danger">Unable to load news.</p>`;
     });
+
 
